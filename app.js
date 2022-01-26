@@ -1,1 +1,3 @@
-console.log("Hello Node!");
+const profileDataArgs = process.argv.slice(2, process.argv.length);
+console.log(profileDataArgs);
+
